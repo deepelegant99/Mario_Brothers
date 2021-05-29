@@ -13,11 +13,30 @@ header{
     width: 100%;
     height: 15%;
     background-color: blueviolet;
+    position: fixed;
 }
+
+.Game_Space
+{
+    width: 400%;
+    height: 70%;
+    position: relative;
+}
+
+.Game_Space img
+{
+    
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    bottom: -20%;
+    left: 10%;
+}
+
 .ground{
     width: 100%;
     height: 15%;
     background-color: burlywood;
-    position: absolute;
+    position: /*absolute;*/ fixed;
     bottom: 0px;
 }
