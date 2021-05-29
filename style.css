@@ -1,6 +1,7 @@
 *{
     margin:0px;
     padding:0px;
+    box-sizing: border-box;
 }
 
 html, body{
@@ -16,21 +17,31 @@ header{
     position: fixed;
 }
 
-.Game_Space
-{
+.Game_Space{
     width: 400%;
     height: 70%;
+    background-color: cadetblue;
     position: relative;
+    top: 15%;
+ 
 }
 
-.Game_Space img
-{
+.a{
     
     position: absolute;
     width: 60px;
     height: 60px;
-    bottom: -20%;
+    bottom: 0%;
     left: 10%;
+  
+}
+.b{
+    
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    bottom: 0%;
+    left: 75%;
 }
 
 .ground{
@@ -39,4 +50,5 @@ header{
     background-color: burlywood;
     position: /*absolute;*/ fixed;
     bottom: 0px;
+   
 }
