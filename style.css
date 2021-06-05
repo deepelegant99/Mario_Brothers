@@ -104,7 +104,7 @@ header {
   left: 90%;
 }
 
-.box_space{
+.box_space {
   width: 100%;
   height: 25%;
   background-color: red;
@@ -129,7 +129,18 @@ header {
   bottom: 0%;
   left: 20%;
 }
+.box_space .s1:hover {
+  width: auto;
+  height: auto;
+  background-image: url(img/Question_Box_Off.GIF);
+  position: absolute;
+  bottom: 0%;
+  left: 20%;
+}
 
+.box_space .s1 img:hover {
+  display: none;
+}
 
 .box_space .l2 {
   width: auto;
@@ -149,7 +160,6 @@ header {
   left: 63%;
 }
 
-
 .box_space .s3 {
   width: auto;
   height: auto;
@@ -159,7 +169,6 @@ header {
   left: 76%;
 }
 
-
 .box_space .l3 {
   width: auto;
   height: 100px;
@@ -168,7 +177,6 @@ header {
   top: 0%;
   left: 94%;
 }
-
 
 .ground_space {
   width: 100%;
@@ -210,7 +218,7 @@ header {
   left: 83%;
 }
 
-.ground_space .sb1{
+.ground_space .sb1 {
   width: auto;
   height: 50px;
   display: block;
@@ -301,6 +309,7 @@ header {
   width: 100%;
   height: 16%;
   background-color: burlywood;
-  position: /*absolute;*/ fixed;
+  background-image: url(img/Ground.GIF);
+  position: fixed;
   bottom: 0px;
 }
