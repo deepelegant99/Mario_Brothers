@@ -149,18 +149,8 @@ nav li a {
   bottom: 0%;
   left: 20%;
 }
-.box_space .s1:hover {
-  width: auto;
-  height: auto;
-  background-image: url(img/Question_Box_Off.GIF);
-  position: absolute;
-  bottom: 0%;
-  left: 20%;
-}
 
-.box_space .s1 img:hover {
-  display: none;
-}
+
 
 .box_space .l2 {
   width: auto;
