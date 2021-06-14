@@ -141,6 +141,42 @@ nav li a {
   left: 12%;
 }
 
+.box_space .level1_1 {
+  width: auto;
+  height: auto;
+  visibility: visible;
+  position: absolute;
+  top: 3%;
+  left: 12.7%;
+}
+
+.box_space .unlevel1_1 {
+  width: auto;
+  height: auto;
+  visibility: hidden;
+  position: absolute;
+  top: 3%;
+  left: 12.7%;
+}
+
+.box_space .level1_2 {
+  width: auto;
+  height: auto;
+  display: block;
+  position: absolute;
+  top: 3%;
+  left: 14%;
+}
+
+.box_space .unlevel1_2 {
+  width: auto;
+  height: auto;
+  display: block;
+  visibility: hidden;
+  top: 3%;
+  left: 14%;
+}
+
 .box_space .s1 {
   width: auto;
   height: auto;
