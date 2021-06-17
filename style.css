@@ -147,16 +147,7 @@ nav li a {
   visibility: visible;
   position: absolute;
   top: 3%;
-  left: 12.7%;
-}
-
-.box_space .unlevel1_1 {
-  width: auto;
-  height: auto;
-  visibility: hidden;
-  position: absolute;
-  top: 3%;
-  left: 12.7%;
+  left: 12.5%;
 }
 
 .box_space .level1_2 {
@@ -165,10 +156,8 @@ nav li a {
   display: block;
   position: absolute;
   top: 3%;
-  left: 14%;
+  left: 13.7%;
 }
-
-
 
 .box_space .s1 {
   width: auto;
@@ -179,8 +168,6 @@ nav li a {
   left: 20%;
 }
 
-
-
 .box_space .l2 {
   width: auto;
   height: 100px;
@@ -188,6 +175,24 @@ nav li a {
   position: absolute;
   top: 0%;
   left: 35%;
+}
+
+.box_space .level2_1 {
+  width: auto;
+  height: auto;
+  visibility: visible;
+  position: absolute;
+  top: 3%;
+  left: 38%;
+}
+
+.box_space .level2_2 {
+  width: auto;
+  height: auto;
+  display: block;
+  position: absolute;
+  top: 3%;
+  left: 37%;
 }
 
 .box_space .s2 {
