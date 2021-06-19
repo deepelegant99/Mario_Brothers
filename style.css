@@ -183,7 +183,7 @@ nav li a {
   visibility: visible;
   position: absolute;
   top: 3%;
-  left: 38%;
+  left: 35.5%;
 }
 
 .box_space .level2_2 {
@@ -192,8 +192,27 @@ nav li a {
   display: block;
   position: absolute;
   top: 3%;
-  left: 37%;
+  left: 36.5%;
 }
+
+.box_space .level3_1 {
+  width: auto;
+  height: auto;
+  visibility: visible;
+  position: absolute;
+  top: 3%;
+  left: 94.5%;
+}
+
+.box_space .level3_2 {
+  width: auto;
+  height: auto;
+  display: block;
+  position: absolute;
+  top: 3%;
+  left: 96%;
+}
+
 
 .box_space .s2 {
   width: auto;

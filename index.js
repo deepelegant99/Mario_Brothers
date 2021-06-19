@@ -7,6 +7,10 @@ const s2 = body.querySelector(".box_space .s2 img");
 const s3 = body.querySelector(".box_space .s3 img");
 const l1_1 = body.querySelector(".box_space .level1_1 img");
 const l1_2 = body.querySelector(".box_space .level1_2 img");
+const l2_1 = body.querySelector(".box_space .level2_1 img");
+const l2_2 = body.querySelector(".box_space .level2_2 img");
+const l3_1 = body.querySelector(".box_space .level3_1 img");
+const l3_2 = body.querySelector(".box_space .level3_2 img");
 
 /**change the element that has the question blocks to blank */
 s1.addEventListener("click", ()=>setTimeout(()=>s1.setAttribute('src', 'img/Question_Box_Off.gif'), 1), false);
@@ -16,6 +20,11 @@ s3.addEventListener("click", ()=>setTimeout(()=>s3.setAttribute('src', 'img/Ques
 l1_1.addEventListener("click", ()=>setTimeout(()=>l1_1.setAttribute('src', 'img/Question_Box_Off.gif'), 1), false);
 l1_2.addEventListener("click", ()=>setTimeout(()=>l1_2.setAttribute('src', 'img/Question_Box_Off.gif'), 1), false);
 
+l2_1.addEventListener("click", ()=>setTimeout(()=>l2_1.setAttribute('src', 'img/Question_Box_Off.gif'), 1), false);
+l2_2.addEventListener("click", ()=>setTimeout(()=>l2_2.setAttribute('src', 'img/Question_Box_Off.gif'), 1), false);
+
+l3_1.addEventListener("click", ()=>setTimeout(()=>l3_1.setAttribute('src', 'img/Question_Box_Off.gif'), 1), false);
+l3_2.addEventListener("click", ()=>setTimeout(()=>l3_2.setAttribute('src', 'img/Question_Box_Off.gif'), 1), false);
 
 /**code to click on question blocks to change into blank blocks */
 
